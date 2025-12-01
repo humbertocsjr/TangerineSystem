@@ -13,5 +13,6 @@
         "vector": "c",
         "multiboot.h": "c",
         "kernel.h": "c"
-    }
+    },
+    "license.author": "Humberto Costa dos Santos Junior"
 }
