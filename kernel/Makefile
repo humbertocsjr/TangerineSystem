@@ -8,7 +8,7 @@ all: $(OUT)
 	@true
 
 clean:
-	@rm -f $(OUT) $(OBJ) *.o video/*.o src/*.o io/*.o keyboard/*.o disk/*.o bus/*.o | true
+	@rm -f $(OUT) $(OBJ) *.lst *.o video/*.o src/*.o io/*.o keyboard/*.o disk/*.o bus/*.o | true
 
 %.o: %.c $(wildcard *.h ../include/*.h src/*.h modules/*.h ../config.h)
 	@echo [CC ] $@
