@@ -1,0 +1,6 @@
+
+
+void vfs_init()
+{
+
+}

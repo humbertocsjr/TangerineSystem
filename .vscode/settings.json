@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.s": "z80-macroasm",
+        "*.asm": "nasm",
+        "__bit_reference": "c",
+        "__node_handle": "c",
+        "bitset": "c",
+        "deque": "c",
+        "limits": "c",
+        "locale": "c",
+        "optional": "c",
+        "ratio": "c",
+        "vector": "c",
+        "multiboot.h": "c",
+        "kernel.h": "c"
+    }
+}

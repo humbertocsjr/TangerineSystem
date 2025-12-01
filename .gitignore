@@ -1,0 +1,9 @@
+*.bin 
+*.o
+*.elf
+*.img
+*.lib
+/bin
+/config.h
+/config.mk
+/config.mod
