@@ -11,7 +11,7 @@ all clean: reqs
 
 tinycc:
 	@chmod +x sdk/tinycc/configure
-	@sdk/tinycc/configure --cpu=x86_64
+	@cd sdk/tinycc; ./configure --cpu=x86_64
 	@make --no-print-directory all cross-i386 -C sdk/tinycc
 
 install-tinycc:

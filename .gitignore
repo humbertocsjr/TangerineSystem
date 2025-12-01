@@ -2,8 +2,15 @@
 *.o
 *.elf
 *.img
+*.lst
 *.lib
+*.exe
+*.a
 /bin
 /config.h
 /config.mk
 /config.mod
+/sdk/tinycc/tcc
+/sdk/tinycc/i386-tcc
+/sdk/tinycc/tcc-doc.pod
+/sdk/tinycc/tccdefs_.h
